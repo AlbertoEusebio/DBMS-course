@@ -19,3 +19,4 @@ where s.SCode = sc.SCode and sc.SSSN = (select SSSN
                                                                  from EXPERTISE
                                                                  group by SSSN)
                                                           ))
+
